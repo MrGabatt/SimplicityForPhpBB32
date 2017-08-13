@@ -9,13 +9,13 @@ Requirements:
 - prosilver
 
 Style come with 7 color variations :
-	- Simplicity
-	- Simplicity Aqua
-	- Simplicity Blue
-	- Simplicity Dark Blue
-	- Simplicity Light Blue
-	- Simplicity Steel Blue
-	- Simplicity Gray
+- Simplicity
+- Simplicity Aqua
+- Simplicity Blue
+- Simplicity Dark Blue
+- Simplicity Light Blue
+- Simplicity Steel Blue
+- Simplicity Gray
 
 ## Download
 https://github.com/MrGabatt/SimplicityForPhpbb32/archive/master.zip
