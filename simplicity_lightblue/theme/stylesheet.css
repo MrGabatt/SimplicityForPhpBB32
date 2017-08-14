@@ -226,6 +226,8 @@ ul.rightside { float: right; margin-left: 5px; margin-right: -5px; text-align: r
 
 ul.linklist li.responsive-menu { position: relative; margin: 0 5px; }
 
+.fa-bars:before { display: none; }
+
 ul.linklist li.responsive-menu a.responsive-menu-link { display: inline-block; margin: 0 5px; font-size: 17px; position: relative; width: 17px; line-height: 21px; text-decoration: none; }
 
 ul.linklist li.responsive-menu a.responsive-menu-link:before { content: '\E159'; font-family: 'Glyphicons Regular', 'Glyphicons'; position: absolute; left: 0; top: 50%; margin-top: -6.5px; width: 15px; font-size: 13px; line-height: 13px; height: 13px; text-align: center; font-weight: normal; font-style: normal; text-indent: 0; }

@@ -1120,6 +1120,10 @@ ul.linklist li.responsive-menu {
 
 $responsive-menu-font-size:		$font-size + 2px !default;
 
+.fa-bars:before {
+	display: none;
+}
+
 ul.linklist li.responsive-menu a.responsive-menu-link {
 	display: inline-block;
 	margin: 0 5px;
