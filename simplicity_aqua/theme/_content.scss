@@ -28,8 +28,8 @@ ul.topiclist li {
 			transition: opacity 0.3s ease;
 			opacity: .5;
 			&:after {
-				content: '\E192';	// glyphicons-circle-minus
-				font-family: 'Glyphicons Regular', 'Glyphicons';
+				content: '\f056';	// fa-minus-circle
+				font-family: FontAwesome;
 				position: absolute;
 				top: 0;
 				left: 0;
@@ -39,7 +39,7 @@ ul.topiclist li {
 				line-height: 16px;
 			}
 			&.toggled:after {
-				content: '\E191';	// glyphicons-circle-plus
+				content: '\f055';	// fa-plus-circle
 			}
 			&:hover {
 				opacity: 1;

@@ -144,15 +144,13 @@ $button-outer-height:	$button-inner-height + $button-border-width * 2;
 	font-size: 16px;
 }
 .phpbb_icq-icon:after {
-	@extend %contact-icon-gi;
-	content: '\2698';	// glyphicons-flower
+	content: '\f013';	// fa-cog
 }
 .phpbb_wlm-icon:after {
 	content: '\f007';	// fa-user
 }
 .phpbb_aol-icon:after {
-	@extend %contact-icon-gi;
-	content: '\E563';	// glyphicons-person-walking
+	content: '\f2bb';	// fa-address-card
 }
 .phpbb_website-icon:after {
 	content: '\f08e';	// fa-external-link

@@ -5,7 +5,7 @@ Style for phpBB 3.2
 
 Requirements:
 
-- phpBB 3.2
+- phpBB 3.2.1
 - prosilver
 
 Style come with 7 color variations :
@@ -16,6 +16,12 @@ Style come with 7 color variations :
 - Simplicity Light Blue
 - Simplicity Steel Blue
 - Simplicity Gray
+
+How to install a color declination
+The color variations for Simplicity are available as inherited styles.
+
+Prerequisites
+To install a color variation, you must first install the Simplicity style.
 
 ## Download
 https://github.com/MrGabatt/SimplicityForPhpbb32/archive/master.zip

@@ -28,13 +28,6 @@
 	}
 }
 
-%imageset-gi {
-	@extend %imageset-glyph;
-	&:after {
-		font-family: 'Glyphicons Regular', 'Glyphicons';
-	}
-}
-
 %imageset-16 {
 	width: 16px;
 	height: 16px;
@@ -122,10 +115,10 @@ span.imageset {
 	padding-top: 9px;
 }
 .imageset.icon_topic_attach {
-	@extend %imageset-gi;
+	@extend %imageset-fa;
 	@extend %imageset-12;
 	&:after {
-		content: '\E063';	// glyphicons-paperclip
+		content: '\f0c6';	// fa-paperclip
 	}
 }
 .imageset.icon_topic_latest {
@@ -164,24 +157,24 @@ span.imageset {
 	}
 }
 .imageset.icon_topic_poll {
-	@extend %imageset-gi;
+	@extend %imageset-fa;
 	@extend %imageset-12;
 	&:after {
-		content: '\E042';	// glyphicons-charts
+		content: '\f080';	// fa-bar-chart
 	}
 }
 
 .imageset.icon_contact {
-	@extend %imageset-gi;
+	@extend %imageset-fa;
 	@extend %imageset-12;
 	&:after {
-		content: '\E188';	// glyphicons-more
+		content: '\f141';	// fa-ellipsis-h
 	}
 	&:hover:after {
-		content: '\E602';	// glyphicons-chevron-down
+		content: '\f078';	// fa-chevron-down
 	}
 	.dropdown-up &:hover:after {
-		content: '\E601';	// glyphicons-chevron-up
+		content: '\f077';	// fa-chevron-up
 	}
 }
 
@@ -221,17 +214,10 @@ span.imageset {
 	}
 }
 
-%icon-image-gi {
-	@extend %icon-image;
-	&:after {
-		font-family: 'Glyphicons Regular', 'Glyphicons';
-	}
-}
-
 %icon-search-old {
-	@extend %icon-image-gi;
+	@extend %icon-image-fa;
 	&:after {
-		content: '\E028';	// glyphicons-search
+		content: '\f002';	// fa-search
 	}
 }
 
@@ -244,15 +230,15 @@ span.imageset {
 }
 
 .icon-acp {
-	@extend %icon-image-gi;
+	@extend %icon-image-fa;
 	&:after {
-		content: '\E271';	// glyphicons-shield
+		content: '\f085';	// fa-cogs
 	}
 }
 .icon-bookmark {
-	@extend %icon-image-gi;
+	@extend %icon-image-fa;
 	&:after {
-		content: '\E073';	// glyphicons-bookmark
+		content: '\f02e';	// fa-bookmark
 		margin-left: -1px;
 		margin-right: -1px;
 	}
@@ -282,15 +268,15 @@ span.imageset {
 	}
 }
 .icon-faq {
-	@extend %icon-image-gi;
+	@extend %icon-image-fa;
 	&:after {
-		content: '\E195';	// glyphicons-circle-question-mark
+		content: '\f059';	// fa-question-circle
 	}
 }
 .icon-home {
-	@extend %icon-image-gi;
+	@extend %icon-image-fa;
 	&:after {
-		content: '\E021';	// glyphicons-home
+		content: '\f015';	// fa-home
 	}
 	&.breadcrumbs:after {
 		text-align: left;
@@ -309,10 +295,9 @@ span.imageset {
 	}
 }
 .icon-mark {
-	@extend %icon-image-gi;
+	@extend %icon-image-fa;
 	&:after {
-		content: '\E153';	// glyphicons-check
-		margin-top: -8px;
+		content: '\f046';	// fa-check-square-o
 	}
 }
 .icon-mcp {
@@ -418,9 +403,9 @@ ul.linklist.bulletin > li.small-icon.icon-members:before {
 }
 ul.linklist.bulletin > li.small-icon.icon-team:before { @extend .icon-team:before; }
 .icon-ucp {
-	@extend %icon-image-gi;
+	@extend %icon-image-fa;
 	&:after {
-		content: '\E281';	// glyphicons-settings
+		content: '\f0ad';	// fa-wrench
 	}
 }
 .icon-unsubscribe {
@@ -430,21 +415,21 @@ ul.linklist.bulletin > li.small-icon.icon-team:before { @extend .icon-team:befor
 	}
 }
 .icon-new-posts {
-	@extend %icon-image-gi;
+	@extend %icon-image-fa;
 	&:after {
-		content: '\E245';	// glyphicons-conversation
+		content: '\f086';	// fa-comments
 	}
 }
 .icon-forums {
-	@extend %icon-image-gi;
+	@extend %icon-image-fa;
 	&:after {
-		content: '\E245';	// glyphicons-conversation
+		content: '\f075';	// fa-comment
 	}
 }
 .icon-chat {
-	@extend %icon-image-gi;
+	@extend %icon-image-fa;
 	&:after {
-		content: '\E246';	// glyphicons-chat
+		content: '\f086';	// fa-comments
 	}
 }
 .icon-time {
@@ -459,9 +444,9 @@ ul.linklist.bulletin > li.small-icon.icon-team:before { @extend .icon-team:befor
 // Thanks for posts mod
 .icon-thanks {
 	background-image: none !important;
-	@extend %icon-image-gi;
+	@extend %icon-image-fa;
 	&:after {
-		content: '\E344';	// glyphicons-thumbs-up
+		content: '\f087';	// fa-thumbs-o-up
 	}
 }
 
