@@ -1489,40 +1489,6 @@ input.button1:focus, input.button2:focus, input.button3:focus { outline-style: n
 
 .tiny { width: 10%; }
 
-.imageset.icon_topic_attach, .imageset.icon_topic_latest, .imageset.icon_topic_newest, .imageset.icon_topic_reported, .imageset.icon_topic_deleted, .imageset.icon_topic_unapproved, .imageset.icon_topic_poll, .imageset.icon_contact { position: relative; text-indent: 999px; }
-.imageset.icon_topic_attach:after, .imageset.icon_topic_latest:after, .imageset.icon_topic_newest:after, .imageset.icon_topic_reported:after, .imageset.icon_topic_deleted:after, .imageset.icon_topic_unapproved:after, .imageset.icon_topic_poll:after, .imageset.icon_contact:after { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; text-align: center; font-size: 13px; line-height: 13px; vertical-align: baseline; font-weight: normal; font-style: normal; text-transform: none; text-indent: 0; pointer-events: none; }
-
-.imageset.icon_topic_attach:after, .imageset.icon_topic_latest:after, .imageset.icon_topic_newest:after, .imageset.icon_topic_reported:after, .imageset.icon_topic_deleted:after, .imageset.icon_topic_unapproved:after, .imageset.icon_topic_poll:after, .imageset.icon_contact:after { font-family: FontAwesome; }
-
-.imageset.icon_topic_reported, .imageset.icon_topic_deleted, .imageset.icon_topic_unapproved { width: 16px; height: 16px; }
-.imageset.icon_topic_reported:after, .imageset.icon_topic_deleted:after, .imageset.icon_topic_unapproved:after { top: 50%; bottom: auto; margin-top: -8px; height: 16px; font-size: 14px; line-height: 16px; }
-
-.imageset.icon_topic_attach, .imageset.icon_topic_poll, .imageset.icon_contact { width: 12px; height: 12px; }
-.imageset.icon_topic_attach:after, .imageset.icon_topic_poll:after, .imageset.icon_contact:after { top: 50%; bottom: auto; margin-top: -6px; height: 12px; font-size: 10px; line-height: 12px; }
-
-.imageset.icon_topic_latest, .imageset.icon_topic_newest { width: 11px; height: 10px; }
-.imageset.icon_topic_latest:after, .imageset.icon_topic_newest:after { top: 50%; bottom: auto; margin-top: -5px; height: 10px; font-size: 10px; line-height: 10px; }
-
-span.imageset { display: inline-block !important; background: transparent none 0 0 no-repeat; margin: 0; padding: 0; width: 0; height: 0; overflow: hidden; }
-
-.imageset.icon_post_target, .imageset.icon_post_target_unread { background-size: 11px 9px; padding-left: 11px; padding-top: 9px; }
-
-.imageset.icon_topic_attach:after { content: '\f0c6'; }
-
-.imageset.icon_topic_latest:after, .imageset.icon_topic_newest:after { content: '\f061'; }
-
-.imageset.icon_topic_reported:after { content: '\f071'; }
-
-.imageset.icon_topic_deleted:after { content: '\f057'; }
-
-.imageset.icon_topic_unapproved:after { content: '\f059'; }
-
-.imageset.icon_topic_poll:after { content: '\f080'; }
-
-.imageset.icon_contact:after { content: '\f141'; }
-.imageset.icon_contact:hover:after { content: '\f078'; }
-.dropdown-up .imageset.icon_contact:hover:after { content: '\f077'; }
-
 .icon-search-new, .icon-search-unanswered, .icon-search-unread, .icon-search-self, .icon-search, .icon-search-active, .icon-search-advanced, .icon-acp, .icon-bookmark, .icon-bump, .icon-contact, .icon-delete-cookies, .icon-download, .icon-faq, .icon-home, .icon-logout, .icon-login, .icon-mark, .icon-mcp, .icon-members, .icon-notification, .icon-pages, .icon-pm, .icon-print, .icon-profile, .icon-register, .icon-sendemail, .icon-subscribe, .icon-team, .icon-ucp, .icon-unsubscribe, .icon-new-posts, .icon-forums, .icon-chat, .icon-time, .icon-thanks, .icon-thanks_toplist { position: relative; background-image: none; }
 .icon-search-new:after, .icon-search-unanswered:after, .icon-search-unread:after, .icon-search-self:after, .icon-search:after, .icon-search-active:after, .icon-search-advanced:after, .icon-acp:after, .icon-bookmark:after, .icon-bump:after, .icon-contact:after, .icon-delete-cookies:after, .icon-download:after, .icon-faq:after, .icon-home:after, .icon-logout:after, .icon-login:after, .icon-mark:after, .icon-mcp:after, .icon-members:after, .icon-members:before, ul.linklist.bulletin > li.small-icon.icon-members:before, .icon-notification:after, .icon-pages:after, .icon-pm:after, .icon-print:after, .icon-profile:after, .icon-register:after, .icon-sendemail:after, .icon-subscribe:after, .icon-team:after, .icon-team:before, ul.linklist.bulletin > li.small-icon.icon-team:before, .icon-ucp:after, .icon-unsubscribe:after, .icon-new-posts:after, .icon-forums:after, .icon-chat:after, .icon-time:after, .icon-thanks:after, .icon-thanks_toplist:after { content: ''; position: absolute; top: 50%; left: 0; height: 14px; margin-top: -7px; text-align: center; font-size: 12px; line-height: 14px; vertical-align: baseline; font-weight: normal; font-style: normal; text-transform: none; text-indent: 0; pointer-events: none; }
 .small-icon.icon-search-new:after, .small-icon.icon-search-unanswered:after, .small-icon.icon-search-unread:after, .small-icon.icon-search-self:after, .small-icon.icon-search:after, .small-icon.icon-search-active:after, .small-icon.icon-search-advanced:after, .small-icon.icon-acp:after, .small-icon.icon-bookmark:after, .small-icon.icon-bump:after, .small-icon.icon-contact:after, .small-icon.icon-delete-cookies:after, .small-icon.icon-download:after, .small-icon.icon-faq:after, .small-icon.icon-home:after, .small-icon.icon-logout:after, .small-icon.icon-login:after, .small-icon.icon-mark:after, .small-icon.icon-mcp:after, .small-icon.icon-members:after, .small-icon.icon-members:before, ul.linklist.bulletin > li.small-icon.icon-members:before, .small-icon.icon-notification:after, .small-icon.icon-pages:after, .small-icon.icon-pm:after, .small-icon.icon-print:after, .small-icon.icon-profile:after, .small-icon.icon-register:after, .small-icon.icon-sendemail:after, .small-icon.icon-subscribe:after, .small-icon.icon-team:after, .small-icon.icon-team:before, ul.linklist.bulletin > li.small-icon.icon-team:before, .small-icon.icon-ucp:after, .small-icon.icon-unsubscribe:after, .small-icon.icon-new-posts:after, .small-icon.icon-forums:after, .small-icon.icon-chat:after, .small-icon.icon-time:after, .small-icon.icon-thanks:after, .small-icon.icon-thanks_toplist:after { width: 18px; text-align: center; }
@@ -2322,7 +2288,5 @@ ul.linklist li.responsive-menu a.responsive-menu-link:hover:before, ul.linklist 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 1.5dppx) { .imageset.icon_post_target_unread { background-image: url("./images/icon_post_target_unread_hd.png"); } }
 
 .imageset.icon_topic_attach:after { color: #868686; }
-
-.imageset.icon_topic_newest:after, .imageset.icon_topic_reported:after, .imageset.icon_topic_deleted:after, .imageset.icon_topic_unapproved:after { color: #d0613c; }
 
 .imageset.icon_topic_poll:after { color: #70a3ad; }
