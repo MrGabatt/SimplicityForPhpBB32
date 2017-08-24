@@ -126,7 +126,7 @@
 				<!-- IF S_REGISTERED_USER -->
 					<!-- EVENT navbar_header_user_profile_prepend -->
 					<li id="username_logged_in" class="tab account dropdown-container" data-skip-responsive="true" data-select-match="ucp">
-						<a href="{U_PROFILE}" class="nav-link dropdown-trigger">{CURRENT_USERNAME_SIMPLE}</a>
+						<!-- EVENT navbar_header_username_prepend -->						<a href="{U_PROFILE}" class="nav-link dropdown-trigger">{CURRENT_USERNAME_SIMPLE}</a>
 						<div class="dropdown">
 							<div class="pointer"><div class="pointer-inner"></div></div>
 							<ul class="dropdown-contents" role="menu">
@@ -162,6 +162,7 @@
 
 							</ul>
 						</div>
+						<!-- EVENT navbar_header_username_append -->
 					</li>
 					<!-- IF S_DISPLAY_PM -->
 						<li class="tab pm<!-- IF PRIVATE_MESSAGE_COUNT > 0 --> non-zero<!-- ENDIF -->" data-skip-responsive="true" data-select-match="pm">
