@@ -43,6 +43,26 @@ hr {
 	border-top-color: $content-bottom-border;
 }
 
+/* Post body links */
+.postlink {
+	border-bottom-color: $link-color;
+	color: $link-color;
+}
+
+.postlink:visited {
+	border-bottom-color: $muted-color;
+	color: $muted-color;
+}
+
+.postlink:hover {
+	background-color: darken($block-background, 10%);
+	color: $link-hover-color;
+}
+
+.signature a, .signature a:hover {
+	background-color: transparent;
+}
+
 // Search box
 // ---------------------------------------------
 
