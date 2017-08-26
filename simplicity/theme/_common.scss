@@ -2240,31 +2240,35 @@ ul.linklist:after,
 	margin-left: 58px;
 }
 
-// Navbar specific list items
-// ----------------------------------------
+.badge {
+	border-radius: 10px;
+	opacity: 0.8;
+	text-align: center;
+	white-space: nowrap;
+	font-size: 10px;
+	line-height: 1;
+	float: right;
+	display: inline-block;
+	margin-left: 3px;
+	vertical-align: baseline;
+	position: relative;
+	top: 3px;
+	padding: 4px 6px;
+ }
 
-.quick-links {
-	margin: 0 7px 0 0;
-}
-
-.quick-links a.responsive-menu-link {
-	display: block;
-	font-size: inherit;
-	line-height: inherit;
-	margin: 0;
-	width: auto;
-}
-
-.compact .quick-links a.responsive-menu-link {
-	font-size: 0;
-}
-
-.compact .icon-notification > a > span, .compact .icon-pm > a > span {
+.badge.hidden {
 	display: none;
 }
 
-.compact .icon-notification > a > strong, .compact .icon-pm > a > strong {
-	padding-left: 2px;
+// Navbar specific list items
+// ----------------------------------------
+
+.linklist .quick-links {
+	margin: 0 7px 0 0;
+}
+
+.linklist.compact .rightside > a > span span {
+	display: none;
 }
 
 .dropdown-page-jump .dropdown {
