@@ -9,7 +9,7 @@ Requirements:
 - prosilver
 
 Style come with 7 color variations :
-- Simplicity
+- Simplicity (default)
 - Simplicity Aqua
 - Simplicity Blue
 - Simplicity Dark Blue
