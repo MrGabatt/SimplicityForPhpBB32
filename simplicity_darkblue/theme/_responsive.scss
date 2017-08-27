@@ -551,12 +551,12 @@
 	.online-ribbon {
 		width: 35px;
 		height: 35px;
-		top: -1px;
-		#{$profile-side}: -1px;
+		top: 0;
+		#{$profile-side}: 0;
 
 		.rtl & {
 			#{$profile-side}: auto;
-			#{$post-side}: -1px;
+			#{$post-side}: 0;
 		}
 
 		span {

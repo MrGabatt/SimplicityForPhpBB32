@@ -4304,11 +4304,11 @@ input.button1:focus, input.button2:focus, input.button3:focus {
   .online-ribbon {
     width: 35px;
     height: 35px;
-    top: -1px;
-    left: -1px; }
+    top: 0;
+    left: 0; }
     .rtl .online-ribbon {
       left: auto;
-      right: -1px; }
+      right: 0; }
     .online-ribbon span {
       width: 50px;
       font-size: 6px;
