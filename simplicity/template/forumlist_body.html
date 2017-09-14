@@ -90,16 +90,6 @@
 							</div>
 							<!-- ENDIF -->
 						<!-- ENDIF -->
-
-						<!-- IF forumrow.U_UNAPPROVED_TOPICS -->
-							<a href="{forumrow.U_UNAPPROVED_TOPICS}" title="{L_TOPICS_UNAPPROVED}" class="forum-mcplink">
-								<i class="icon fa-question fa-fw icon-blue" aria-hidden="true"></i><span class="sr-only">{L_TOPICS_UNAPPROVED}</span>
-							</a>
-						<!-- ELSEIF forumrow.U_UNAPPROVED_POSTS -->
-							<a href="{forumrow.U_UNAPPROVED_POSTS}" title="{L_POSTS_UNAPPROVED_FORUM}" class="forum-mcplink">
-								<i class="icon fa-question fa-fw icon-blue" aria-hidden="true"></i><span class="sr-only">{L_POSTS_UNAPPROVED_FORUM}</span>
-							</a>
-						<!-- ENDIF -->						
 					</div>
 				</dt>
 				<!-- IF forumrow.CLICKS -->
@@ -111,6 +101,16 @@
 					<!-- ENDIF -->
 					<dd class="lastpost">
 						<span>
+							<!-- IF forumrow.U_UNAPPROVED_TOPICS -->
+								<a href="{forumrow.U_UNAPPROVED_TOPICS}" title="{L_TOPICS_UNAPPROVED}" class="forum-mcplink">
+									<i class="icon fa-question fa-fw icon-blue" aria-hidden="true"></i><span class="sr-only">{L_TOPICS_UNAPPROVED}</span>
+								</a>
+							<!-- ELSEIF forumrow.U_UNAPPROVED_POSTS -->
+								<a href="{forumrow.U_UNAPPROVED_POSTS}" title="{L_POSTS_UNAPPROVED_FORUM}" class="forum-mcplink">
+									<i class="icon fa-question fa-fw icon-blue" aria-hidden="true"></i><span class="sr-only">{L_POSTS_UNAPPROVED_FORUM}</span>
+								</a>
+							<!-- ENDIF -->						
+
 							<!-- IF forumrow.LAST_POST_TIME -->
 								<dfn>{L_LAST_POST}</dfn>
 								<!-- IF forumrow.S_DISPLAY_SUBJECT -->
