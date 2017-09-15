@@ -20,13 +20,16 @@
 */
 @import "custom_config";
 @import "style_config";
-@import "common";
-@import "links";
-@import "content";
-@import "buttons";
-@import "cp";
-@import "forms";
-@import "imageset";
-@import "responsive";
+@import "../../simplicity/theme/common";
+@import "../../simplicity/theme/links";
+@import "../../simplicity/theme/content";
+@import "../../simplicity/theme/buttons";
+@import "../../simplicity/theme/cp";
+@import "../../simplicity/theme/forms";
+@import "../../simplicity/theme/imageset";
+@import "../../simplicity/theme/responsive";
 @import "colours";
 @import "custom";
+@import "../../simplicity/theme/icons";
+@import "../../simplicity/theme/normalize";
+@import "../../simplicity/theme/utilities";
