@@ -1981,7 +1981,6 @@ li.row {
     li.row .subforums-list li > span {
       display: inline; }
   li.row .forum-mcplink {
-    position: absolute;
     right: 4px;
     top: 4px; }
     .rtl li.row .forum-mcplink {
