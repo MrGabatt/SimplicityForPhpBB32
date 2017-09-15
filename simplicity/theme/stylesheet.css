@@ -4527,7 +4527,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 ul.navlinks {
   border-top-color: #e7e7e7; }
 
-.forum_unread .forumtitle, .forum_unread_locked .forumtitle {
+.forum_unread .forumtitle, .forum_unread_subforum .forumtitle, .forum_unread_locked .forumtitle {
   color: #d06d3c; }
 
 .global_unread .topictitle, .global_unread_mine .topictitle, .announce_unread_mine .topictitle, .announce_unread .topictitle, .global_unread_mine .topictitle, .announce_unread_mine .topictitle, .global_unread_locked .topictitle, .global_unread_locked_mine .topictitle, .announce_unread_locked_mine .topictitle, .announce_unread_locked .topictitle, .global_unread_locked_mine .topictitle, .announce_unread_locked_mine .topictitle, .announce_unread .topictitle, .announce_unread_mine .topictitle, .announce_unread_locked .topictitle, .announce_unread_locked_mine .topictitle, .sticky_unread .topictitle, .sticky_unread_mine .topictitle, .sticky_unread_locked .topictitle, .sticky_unread_locked_mine .topictitle, .topic_unread .topictitle, .sticky_unread .topictitle, .pm_unread .topictitle, .topic_unread_mine .topictitle, .sticky_unread_mine .topictitle, .topic_unread_locked .topictitle, .sticky_unread_locked .topictitle, .topic_unread_locked_mine .topictitle, .sticky_unread_locked_mine .topictitle, .topic_unread_hot .topictitle, .topic_unread_hot_mine .topictitle {
