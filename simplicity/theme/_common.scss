@@ -475,7 +475,7 @@ $nav-alert-font-size:		9px !default;
 					content: '\f078';	// fa-chevron-down
 					font-family: FontAwesome;
 					position: absolute;
-					right: 0;
+					right: 12px;
 					top: 50%;
 					font-size: $nav-primary-font-size-toggle;
 					line-height: $nav-primary-font-size;
@@ -484,11 +484,10 @@ $nav-alert-font-size:		9px !default;
 					margin-top: -6px;
 					.rtl & {
 						right: auto;
-						left: 0;
+						left: 12px;
 					}
 				}
 				&:hover:before {
-					display: none;
 				}
 			}
 			.username-coloured {
@@ -500,7 +499,16 @@ $nav-alert-font-size:		9px !default;
 
 		.responsive-menu .nav-link:before,
 		.dropdown-visible .nav-link:before {
-			display: none;
+          		content: '\f077'; // fa-chevron-up
+          		font-family: FontAwesome;
+          		position: absolute;
+          		right: 12px;
+         		top: 50%;
+          		font-size: 9px;
+          		line-height: 13px;
+          		width: 9px;
+          		height: 13px;
+          		margin-top: -6px;
 		}
 
 		.dropdown {
@@ -573,8 +581,6 @@ $nav-alert-font-size:		9px !default;
 				text-indent: 0;
 			}
 			.rtl & {
-				padding-left: $tab-padding;
-				padding-right: ($tab-padding + 18px);
 			}
 			.rtl &:after {
 				left: auto;
@@ -644,8 +650,9 @@ $nav-alert-font-size:		9px !default;
 		.members .nav-link {
 			@extend %glyph;
 			padding-left: ($tab-padding + 20px);
+			padding-right: ($tab-padding + 12px);
 			.rtl & {
-				padding-left: $tab-padding;
+				padding-left: ($tab-padding + 12px);
 				padding-right: ($tab-padding + 20px);
 			}
 			&:after {
@@ -660,6 +667,10 @@ $nav-alert-font-size:		9px !default;
 
 		.forums .nav-link {
 			@extend %glyph;
+			.rtl & {
+				padding-left: $tab-padding;
+				padding-right: ($tab-padding + 20px);
+			}
 			&:after {
 				@extend %glyph-fa;
 				content: '\f075';	// fa-comment
