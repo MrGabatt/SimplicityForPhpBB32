@@ -409,7 +409,7 @@ $nav-alert-font-size:		9px !default;
 
 	.nav-tabs {
 		border-radius: $navtabs-border-radius;
-		& .leftside, .rtl & .rightside {
+		& .leftside {
 			& .tab:first-child,
 			& .tab.first-visible {
 				border-radius: max($navtabs-border-radius - 1px, 0px); // 1px smaller than overall border to avoid rough edges
@@ -417,9 +417,25 @@ $nav-alert-font-size:		9px !default;
 				border-bottom-right-radius: 0;
 			}
 		}
-		& .rightside, .rtl & .leftside {
+		.rtl & .rightside {
 			& .tab:last-child,
 			& .tab.last-visible {
+				border-radius: max($navtabs-border-radius - 1px, 0px); // 1px smaller than overall border to avoid rough edges
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 0;
+			}
+		}
+		& .rightside {
+			& .tab:last-child,
+			& .tab.last-visible {
+				border-radius: max($navtabs-border-radius - 1px, 0px); // 1px smaller than overall border to avoid rough edges
+				border-top-left-radius: 0;
+				border-bottom-left-radius: 0;
+			}
+		}
+		.rtl & .leftside {
+			& .tab:first-child,
+			& .tab.first-visible {
 				border-radius: max($navtabs-border-radius - 1px, 0px); // 1px smaller than overall border to avoid rough edges
 				border-top-left-radius: 0;
 				border-bottom-left-radius: 0;

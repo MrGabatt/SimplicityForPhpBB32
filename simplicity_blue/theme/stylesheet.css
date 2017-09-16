@@ -276,11 +276,19 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
     padding-left: 18px; }
   .navbar .nav-tabs {
     border-radius: 3px; }
-    .navbar .nav-tabs .leftside .tab:first-child, .navbar .nav-tabs .leftside .tab.first-visible, .rtl .navbar .nav-tabs .rightside .tab:first-child, .rtl .navbar .nav-tabs .rightside .tab.first-visible {
+    .navbar .nav-tabs .leftside .tab:first-child, .navbar .nav-tabs .leftside .tab.first-visible {
       border-radius: 2px;
       border-top-right-radius: 0;
       border-bottom-right-radius: 0; }
-    .navbar .nav-tabs .rightside .tab:last-child, .navbar .nav-tabs .rightside .tab.last-visible, .rtl .navbar .nav-tabs .leftside .tab:last-child, .rtl .navbar .nav-tabs .leftside .tab.last-visible {
+    .rtl .navbar .nav-tabs .rightside .tab:last-child, .rtl .navbar .nav-tabs .rightside .tab.last-visible {
+      border-radius: 2px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0; }
+    .navbar .nav-tabs .rightside .tab:last-child, .navbar .nav-tabs .rightside .tab.last-visible {
+      border-radius: 2px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0; }
+    .rtl .navbar .nav-tabs .leftside .tab:first-child, .rtl .navbar .nav-tabs .leftside .tab.first-visible {
       border-radius: 2px;
       border-top-left-radius: 0;
       border-bottom-left-radius: 0; }
@@ -319,7 +327,7 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
           content: '\f078';
           font-family: FontAwesome;
           position: absolute;
-          right: 0;
+          right: 12px;
           top: 50%;
           font-size: 8px;
           line-height: 12px;
@@ -328,16 +336,23 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
           margin-top: -6px; }
           .rtl .navbar .nav-tabs .nav-link.dropdown-toggle:before {
             right: auto;
-            left: 0; }
-        .navbar .nav-tabs .nav-link.dropdown-toggle:hover:before {
-          display: none; }
+            left: 12px; }
       .navbar .nav-tabs .nav-link .username-coloured {
         color: inherit !important;
         font-weight: inherit;
         font-style: inherit; }
     .navbar .nav-tabs .responsive-menu .nav-link:before,
     .navbar .nav-tabs .dropdown-visible .nav-link:before {
-      display: none; }
+      content: '\f077';
+      font-family: FontAwesome;
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      font-size: 9px;
+      line-height: 13px;
+      width: 9px;
+      height: 13px;
+      margin-top: -6px; }
     .navbar .nav-tabs .dropdown {
       top: 30px; }
       .dropdown-up .navbar .nav-tabs .dropdown {
@@ -395,9 +410,6 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
         font-weight: normal;
         font-style: normal;
         text-indent: 0; }
-      .rtl .navbar .nav-tabs .responsive-menu .nav-link, .rtl .navbar .nav-tabs .account .nav-link, .rtl .navbar .nav-tabs .pm .nav-link, .rtl .navbar .nav-tabs .notifications .nav-link, .rtl .navbar .nav-tabs .mcp .nav-link, .rtl .navbar .nav-tabs .acp .nav-link, .rtl .navbar .nav-tabs .faq .nav-link, .rtl .navbar .nav-tabs .logout .nav-link, .rtl .navbar .nav-tabs .login .nav-link, .rtl .navbar .nav-tabs .register .nav-link, .rtl .navbar .nav-tabs .rightside .boardrules .nav-link, .rtl .navbar .nav-tabs .rightside .pages .nav-link, .rtl .navbar .nav-tabs .members .nav-link, .rtl .navbar .nav-tabs .forums .nav-link, .rtl .navbar .nav-tabs .leftside .boardrules .nav-link, .rtl .navbar .nav-tabs .leftside .pages .nav-link {
-        padding-left: 12px;
-        padding-right: 30px; }
       .rtl .navbar .nav-tabs .responsive-menu .nav-link:after, .rtl .navbar .nav-tabs .account .nav-link:after, .rtl .navbar .nav-tabs .pm .nav-link:after, .rtl .navbar .nav-tabs .notifications .nav-link:after, .rtl .navbar .nav-tabs .mcp .nav-link:after, .rtl .navbar .nav-tabs .acp .nav-link:after, .rtl .navbar .nav-tabs .faq .nav-link:after, .rtl .navbar .nav-tabs .logout .nav-link:after, .rtl .navbar .nav-tabs .login .nav-link:after, .rtl .navbar .nav-tabs .register .nav-link:after, .rtl .navbar .nav-tabs .rightside .boardrules .nav-link:after, .rtl .navbar .nav-tabs .rightside .pages .nav-link:after, .rtl .navbar .nav-tabs .members .nav-link:after, .rtl .navbar .nav-tabs .forums .nav-link:after, .rtl .navbar .nav-tabs .leftside .boardrules .nav-link:after, .rtl .navbar .nav-tabs .leftside .pages .nav-link:after {
         left: auto;
         right: 12px; }
@@ -441,15 +453,19 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
     .navbar .nav-tabs .responsive-menu .nav-link:after {
       content: '\f0c9'; }
     .navbar .nav-tabs .members .nav-link {
-      padding-left: 32px; }
+      padding-left: 32px;
+      padding-right: 24px; }
       .rtl .navbar .nav-tabs .members .nav-link {
-        padding-left: 12px;
+        padding-left: 24px;
         padding-right: 32px; }
       .navbar .nav-tabs .members .nav-link:after {
         content: '\f0c0'; }
       @media (max-width: 550px) {
         .navbar .nav-tabs .members .nav-link {
           padding: 0 8px !important; } }
+    .rtl .navbar .nav-tabs .forums .nav-link {
+      padding-left: 12px;
+      padding-right: 32px; }
     .navbar .nav-tabs .forums .nav-link:after {
       content: '\f075'; }
     .navbar .nav-tabs .account .nav-link:after {
@@ -1973,7 +1989,6 @@ li.row {
     li.row .subforums-list li > span {
       display: inline; }
   li.row .forum-mcplink {
-    position: absolute;
     right: 4px;
     top: 4px; }
     .rtl li.row .forum-mcplink {

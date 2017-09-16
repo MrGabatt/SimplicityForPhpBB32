@@ -68,7 +68,7 @@
 
 .rtl ul.rightside {
 	float: left;
-	margin-left: -5px;
+	margin-left: 0;
 	margin-right: 5px;
 	text-align: left;
 }

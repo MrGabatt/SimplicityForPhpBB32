@@ -276,11 +276,19 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
     padding-left: 18px; }
   .navbar .nav-tabs {
     border-radius: 3px; }
-    .navbar .nav-tabs .leftside .tab:first-child, .navbar .nav-tabs .leftside .tab.first-visible, .rtl .navbar .nav-tabs .rightside .tab:first-child, .rtl .navbar .nav-tabs .rightside .tab.first-visible {
+    .navbar .nav-tabs .leftside .tab:first-child, .navbar .nav-tabs .leftside .tab.first-visible {
       border-radius: 2px;
       border-top-right-radius: 0;
       border-bottom-right-radius: 0; }
-    .navbar .nav-tabs .rightside .tab:last-child, .navbar .nav-tabs .rightside .tab.last-visible, .rtl .navbar .nav-tabs .leftside .tab:last-child, .rtl .navbar .nav-tabs .leftside .tab.last-visible {
+    .rtl .navbar .nav-tabs .rightside .tab:last-child, .rtl .navbar .nav-tabs .rightside .tab.last-visible {
+      border-radius: 2px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0; }
+    .navbar .nav-tabs .rightside .tab:last-child, .navbar .nav-tabs .rightside .tab.last-visible {
+      border-radius: 2px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0; }
+    .rtl .navbar .nav-tabs .leftside .tab:first-child, .rtl .navbar .nav-tabs .leftside .tab.first-visible {
       border-radius: 2px;
       border-top-left-radius: 0;
       border-bottom-left-radius: 0; }
