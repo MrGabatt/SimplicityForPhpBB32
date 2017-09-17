@@ -383,8 +383,6 @@ li.breadcrumbs span:first-child > a {
 
 .rtl ul.topiclist dd {
 	float: right;
-	border-right-width: 1px;
-	border-right-style: solid;
 	border-left: none;
 }
 
