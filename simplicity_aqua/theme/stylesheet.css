@@ -2017,18 +2017,12 @@ li.header dt {
     margin-right: 440px;
     text-indent: 5px;
     padding-left: 0; }
-  .forabg li.header dt, .forabg li.header dt .list-inner {
-    margin: 0;
-    width: auto;
-    float: none; }
 
 li.header dd {
   padding-left: 1px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-  .forabg li.header dd {
-    display: none; }
 
 li.header dl dt, li.header dl dd {
   min-height: 0; }

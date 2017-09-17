@@ -203,12 +203,6 @@ li.header dt {
 		text-indent: 5px;
 		padding-left: 0;
 	}
-	.forabg &, 
-	.forabg & .list-inner {
-		margin: 0;
-		width: auto;
-		float: none;
-	}
 }
 
 li.header dd {
@@ -216,9 +210,6 @@ li.header dd {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	.forabg & {
-		display: none;
-	}
 }
 
 li.header dl dt, li.header dl dd {
