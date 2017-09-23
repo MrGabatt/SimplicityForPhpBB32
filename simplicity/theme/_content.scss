@@ -472,6 +472,7 @@ dd.option {
 		.rtl & {
 			margin-#{$profile-side}: 0;
 			margin-#{$post-side}: -#{$post-margin};
+			float: $profile-side;
 		}
 		width: 100%;
 		position: relative;
@@ -1050,6 +1051,7 @@ fieldset.polls dd div {
 	margin-#{$post-side}: 8px;
 	.rtl & {
 		margin-#{$profile-side}: 8px;
+		margin-#{$post-side}: 0;
 	}
 }
 

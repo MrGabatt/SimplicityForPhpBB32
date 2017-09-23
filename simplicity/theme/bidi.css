@@ -26,7 +26,6 @@
 ---------------------------------------- */
 .rtl .icon {
 	padding-right: 0;
-	padding-left: 2px;
 }
 
 .rtl .logo {
@@ -316,7 +315,6 @@ li.breadcrumbs span:first-child > a {
 
 .rtl .back2top .top {
 	float: left;
-	margin-left: -10px;
 }
 
 .rtl a.top:after, .rtl a.top2:after {
