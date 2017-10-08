@@ -4618,22 +4618,21 @@ dl.details dd {
 
 .jumpbox-cat-link {
   background-color: #1f5fa6;
-  border-top-color: #0076B1;
   color: #fff; }
 
 .jumpbox-cat-link:hover {
-  background-color: #12A3EB;
-  border-top-color: #12A3EB;
+  background-color: #d03c3c;
+  border-top-color: #d03c3c;
   color: #fff; }
 
 .jumpbox-forum-link {
-  background-color: #E1EBF2; }
+  background-color: #f4f4f4; }
 
 .jumpbox-forum-link:hover {
-  background-color: #F6F4D0; }
+  background-color: #e0e0e0; }
 
 .jumpbox .dropdown .pointer-inner {
-  border-color: #E1EBF2 transparent; }
+  border-color: #f4f4f4 transparent; }
 
 .jumpbox-sub-link {
   background-color: #f4f4f4; }

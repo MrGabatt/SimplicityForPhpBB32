@@ -446,26 +446,25 @@ dl.details dd {
 
 .jumpbox-cat-link {
 	background-color: $dropdown-heading-top;
-	border-top-color: #0076B1;
 	color: $dropdown-heading-color;
 }
 
 .jumpbox-cat-link:hover {
-	background-color: #12A3EB;
-	border-top-color: #12A3EB;
+	background-color: $secondary-color;
+	border-top-color: $secondary-color;
 	color: $dropdown-heading-link-hover-color;
 }
 
 .jumpbox-forum-link {
-	background-color: #E1EBF2;
+	background-color: $dropdown-bg;
 }
 
 .jumpbox-forum-link:hover {
-	background-color: #F6F4D0;
+	background-color: $content-background;
 }
 
 .jumpbox .dropdown .pointer-inner {
-	border-color: #E1EBF2 transparent;
+	border-color: $dropdown-bg transparent;
 }
 
 .jumpbox-sub-link {
