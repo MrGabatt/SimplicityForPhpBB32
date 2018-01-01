@@ -1798,7 +1798,8 @@ $pagination-link-line-height:		$font-size !default;
 // Pagination in viewforum for multipage topics
 .row .pagination {
 	display: block;
-	margin-top: -12px;
+	margin-top: 3px;
+	margin-bottom: 3px;
 }
 
 .row .pagination > ul {
