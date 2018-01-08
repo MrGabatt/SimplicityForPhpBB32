@@ -1228,7 +1228,8 @@ fieldset.fields1 dl.pmlist dd.recipients {
 
 .row .pagination {
   display: block;
-  margin-top: -12px; }
+  margin-top: 3px;
+  margin-bottom: 3px; }
 
 .row .pagination > ul {
   margin: 0; }
@@ -1905,7 +1906,7 @@ ul.topiclist dl {
   position: relative; }
 
 ul.topiclist li.row dl {
-  padding: 2px 0; }
+  margin: 2px 0; }
 
 ul.topiclist dt, ul.topiclist dd {
   display: block;
@@ -1948,6 +1949,10 @@ ul.topiclist dd {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+
+ul.topiclist li.row dd {
+  padding: 4px 0 999px 0;
+  margin-bottom: -995px; }
 
 ul.topiclist dfn {
   display: none;
@@ -2029,6 +2034,9 @@ li.header dl dt, li.header dl dd {
 .forabg li.header dl.row-item dt .list-inner {
   padding-left: 0;
   padding-right: 50px; }
+
+.row .list-inner {
+  padding: 4px 0; }
 
 dl.row-item {
   background-position: 10px 50%;
@@ -2830,7 +2838,7 @@ a.post {
   display: inline-block;
   padding: 2px 8px;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 600;
   font-family: "Open Sans", "Droid Sans", Verdana, Arial, Helvetica;
   line-height: 18px;
   text-align: center;
@@ -4167,7 +4175,7 @@ input.button1:focus, input.button2:focus, input.button3:focus {
     float: none; }
 
   fieldset dd, fieldset.fields1 dd, fieldset.fields2 dd {
-    margin-left: 20px; }
+    margin-left: 0px; }
 
   textarea, dd textarea, .message-box textarea {
     width: 100%;
@@ -4384,12 +4392,6 @@ input.button1:focus, input.button2:focus, input.button3:focus {
 
   dd.posts, dd.topics, dd.views {
     width: 80px; } }
-@media (max-width: 992px) {
-  .row .pagination {
-    text-align: left;
-    float: left;
-    margin-top: 4px;
-    margin-bottom: 4px; } }
 html, body {
   color: #141414;
   background-image: url("./images/pattern.png");

@@ -57,7 +57,7 @@ ul.topiclist dl {
 }
 
 ul.topiclist li.row dl {
-	padding: 2px 0;
+	margin: 2px 0;
 }
 
 ul.topiclist dt, ul.topiclist dd {
@@ -111,6 +111,12 @@ ul.topiclist dd {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
+ul.topiclist li.row dd {
+	padding: 4px 0 999px 0;
+	margin-bottom: -995px;
+}
+
 
 ul.topiclist dfn {
 	// Labels for post/view counts
@@ -223,6 +229,8 @@ li.header dl.row-item dt .list-inner {
 		padding-right: 50px;
 	}
 }
+
+.row .list-inner { padding: 4px 0; }
 
 dl.row-item {
 	background-position: 10px 50%;		// Position of folder icon
