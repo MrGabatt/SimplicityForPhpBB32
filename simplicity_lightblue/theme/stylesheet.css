@@ -1665,6 +1665,9 @@ a {
   display: inline !important;
   padding: 0 !important; }
 
+span.username-coloured {
+  margin-left: 10px; }
+
 .forumbg .header a, .forabg .header a, th a {
   text-decoration: none; }
 
@@ -1745,7 +1748,7 @@ a.lastsubject:hover {
 .back2top {
   clear: both; }
   .post > .back2top {
-    position: absolute;
+    position: relative;
     right: 5px;
     bottom: 5px; }
     .rtl .post > .back2top {
@@ -1837,7 +1840,7 @@ a.feed-icon-forum:after {
   line-height: 16px;
   text-align: center; }
 
-a.anchor {
+a.top-anchor {
   display: block; }
 
 ul.topiclist {
@@ -4376,15 +4379,15 @@ input.button1:focus, input.button2:focus, input.button3:focus {
 @media (min-width: 850px) {
   .postbody {
     width: 76%; } }
-@media (max-width: 850px) {
-  .postprofile {
-    width: 28%; } }
 @media (min-width: 701px) and (max-width: 950px) {
   ul.topiclist dt {
     margin-right: -410px; }
 
   ul.topiclist dt .list-inner {
     margin-right: 410px; }
+
+  ul.topiclist dd.lastpost {
+    float: right; }
 
   dd.posts, dd.topics, dd.views {
     width: 80px; } }

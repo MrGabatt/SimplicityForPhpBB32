@@ -631,12 +631,6 @@
 	.postbody { width: 76%; }
 }
 
-@media (max-width: 850px) {
-	.postprofile { width: 28%; }
-
-
-}
-
 @media (min-width: 701px) and (max-width: 950px) {
 
 	ul.topiclist dt {
@@ -646,6 +640,10 @@
 	ul.topiclist dt .list-inner {
     	margin-right: 410px;
 	}
+
+	ul.topiclist dd.lastpost {
+  		float: right; 
+  	}
 
 	dd.posts, dd.topics, dd.views {
     	width: 80px;

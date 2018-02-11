@@ -18,6 +18,10 @@ a {
 	padding: 0 !important;
 }
 
+span.username-coloured {
+		margin-left: 10px;
+}
+
 // Links on gradient backgrounds
 .forumbg .header a, .forabg .header a, th a {
 	text-decoration: none;
@@ -120,7 +124,7 @@ a.lastsubject:hover {
 .back2top {
 	clear: both;
 	.post > & {
-		position: absolute;
+		position: relative;
 		right: 5px;
 		bottom: 5px;
 		.rtl & {
@@ -240,6 +244,6 @@ a.feed-icon-forum:after {
 	text-align: center;
 }
 
-a.anchor {
+a.top-anchor {
 	display: block;
 }
