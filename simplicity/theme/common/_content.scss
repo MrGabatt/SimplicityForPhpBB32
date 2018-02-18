@@ -611,7 +611,7 @@ dd.option {
 }
 
 .content h2, .panel h2 {
-	font-weight: $panel-heading-line-height;
+	font-weight: normal;
 	border-bottom: 1px solid transparent;
 	font-size: $panel-heading-font-size;
 	margin-top: 0.5em;
@@ -1019,7 +1019,7 @@ fieldset.polls dd div {
 }
 
 .vote-submitted {
-	font-size: $post-content-font-family + 2px;
+	font-size: $post-content-font-size + 2px;
 	font-weight: bold;
 	text-align: center;
 }

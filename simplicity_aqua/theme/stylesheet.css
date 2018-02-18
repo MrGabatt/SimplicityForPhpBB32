@@ -1123,6 +1123,9 @@ dl.details dd {
 .clearfix, fieldset dl, dl.polls {
   overflow: hidden; }
 
+ul.topiclist dd.lastpost {
+  float: right; }
+
 fieldset.fields1 ul.recipients {
   list-style-type: none;
   line-height: 1.8;
@@ -2334,7 +2337,7 @@ dd.option {
   padding-bottom: 1px; }
 
 .content h2, .panel h2 {
-  font-weight: 1.4;
+  font-weight: normal;
   border-bottom: 1px solid transparent;
   font-size: 15px;
   margin-top: 0.5em;
@@ -2649,7 +2652,7 @@ fieldset.polls dd div {
   border-radius: 2px; }
 
 .vote-submitted {
-  font-size: Lucida Grande, Trebuchet MS, Verdana, Helvetica, Arial, sans-serif2px;
+  font-size: 15px;
   font-weight: bold;
   text-align: center; }
 
