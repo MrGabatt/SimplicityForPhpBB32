@@ -1937,8 +1937,15 @@ $pagination-link-line-height:		$font-size !default;
 }
 
 .copyright {
-	padding: 5px;
+	font-size: 10px;
 	text-align: center;
+	padding: 10px;
+}
+
+.footer-row {
+	font-size: 10px;
+	line-height: 1.8;
+	margin: 0;
 }
 
 .small {
