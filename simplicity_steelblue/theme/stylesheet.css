@@ -1655,6 +1655,9 @@ ul.linklist:after,
 .dropdown-page-jump input.tiny {
   width: 50px; }
 
+.dropdown .clone.hidden {
+  display: none; }
+
 .dropdown .clone.hidden + li.separator {
   display: none; }
 
@@ -4244,7 +4247,8 @@ input.button1:focus, input.button2:focus, input.button3:focus {
   ----------------------------------------*/
   .column1, .column2, .left-box.profile-details {
     float: none;
-    width: auto; }
+    width: auto;
+    clear: both; }
 
   /* Polls
   ----------------------------------------*/

@@ -140,16 +140,18 @@
 
 								<!-- EVENT navbar_header_profile_list_before -->
 
-								<li>
-									<a href="{U_PROFILE}" title="{L_PROFILE}" role="menuitem">
-										<i class="icon fa-sliders fa-fw" aria-hidden="true"></i><span>{L_PROFILE}</span>
-									</a>
-								</li>
-								<li>
-									<a href="{U_USER_PROFILE}" title="{L_READ_PROFILE}" role="menuitem">
-										<i class="icon fa-user fa-fw" aria-hidden="true"></i><span>{L_READ_PROFILE}</span>
-									</a>
-								</li>
+						<li>
+							<a href="{U_PROFILE}" title="{L_PROFILE}" role="menuitem">
+								<i class="icon fa-sliders fa-fw" aria-hidden="true"></i><span>{L_PROFILE}</span>
+							</a>
+						</li>
+						<!-- IF U_USER_PROFILE -->
+							<li>
+								<a href="{U_USER_PROFILE}" title="{L_READ_PROFILE}" role="menuitem">
+									<i class="icon fa-user fa-fw" aria-hidden="true"></i><span>{L_READ_PROFILE}</span>
+								</a>
+							</li>
+						<!-- ENDIF -->
 
 								<!-- EVENT navbar_header_profile_list_after -->
 			
@@ -255,9 +257,9 @@
 <!-- DEFINE $BREADCRUMBS -->
 <div class="navbar">
 	<ul id="nav-breadcrumbs" class="nav-breadcrumbs linklist navlinks" role="menubar">
-		<!-- DEFINE $MICRODATA = ' itemtype="http://data-vocabulary.org/Breadcrumb" itemscope=""' -->
+		<!-- DEFINE $MICRODATA = ' itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope' -->
 		<!-- EVENT overall_header_breadcrumbs_before -->
-		<li class="breadcrumbs">
+		<li class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
 			<!-- IF U_SITE_HOME -->
 				<span class="crumb"><a href="{U_SITE_HOME}"{$MICRODATA} data-navbar-reference="home" itemprop="url"><i class="icon fa-home fa-fw" aria-hidden="true"></i><span itemprop="title">{L_SITE_HOME}</span></a></span>
 			<!-- ENDIF -->
