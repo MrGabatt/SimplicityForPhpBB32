@@ -2471,7 +2471,7 @@ blockquote {
 	pointer-events: none;
 }*/
 blockquote blockquote {
-  margin: 5px; }
+  margin: 1em 1px 1em 15px; }
 
 blockquote cite {
   font-style: normal;
